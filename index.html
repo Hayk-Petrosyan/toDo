@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+   <title>Document</title>
+</head>
+
+<body>
+
+      <h1 class="task-title">My Task List</h1>
+      <div id="todolist">
+         <div id="add-to-do">
+            <input id="todo-text" type="text" placeholder="Enter Your Task">
+            <button id="add-btn">Add task</button>
+         </div>
+
+         <div class="task-filter">
+            <input id="all" type="radio" name="filter" value="all" checked><label for="all">All</label>
+            <input id="active" type="radio" name="filter" value="active"><label for="active">Active</label>
+            <input id="completed" type="radio" name="filter" value="completed"><label for="completed">Completed</label>
+         </div>
+
+         <div id="list"></div>
+      </div>
+
+   <script src="./main.js"></script>
+</body>
+
+</html>
